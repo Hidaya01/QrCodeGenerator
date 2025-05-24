@@ -43,44 +43,31 @@ cd qr-generator
 
 
 2️⃣ Install dependencies:
-bash
-Copier
-Modifier
+```bash
 composer install
 npm install
 
 
 3️⃣ Configure environment:
-bash
-Copier
-Modifier
+```bash
 cp .env.example .env
 php artisan key:generate
 
 
 4️⃣ Update .env with your database credentials:
-ini
-Copier
-Modifier
 DB_DATABASE=your_db_name
 DB_USERNAME=your_db_user
 DB_PASSWORD=your_db_password
 
 5️⃣ Run migrations:
-bash
-Copier
-Modifier
+```bash
 php artisan migrate
 
 6️⃣ Build assets:
-bash
-Copier
-Modifier
+```bash
 npm run build
 
 7️⃣ Start the development server:
-bash
-Copier
-Modifier
+```bash
 php artisan serve
 
