@@ -40,19 +40,20 @@ Built with **Laravel**, **Bootstrap**, and the **SimpleSoftwareIO QR Code packag
 ```bash
 git clone https://github.com/Hidaya01/QrCodeGenerator.git
 cd qr-generator
-
+```
 
 2️⃣ Install dependencies:
 ```bash
 composer install
 npm install
-
+```
 
 3️⃣ Configure environment:
 ```bash
 cp .env.example .env
 php artisan key:generate
 
+```
 
 4️⃣ Update .env with your database credentials:
 DB_DATABASE=your_db_name
@@ -62,10 +63,12 @@ DB_PASSWORD=your_db_password
 5️⃣ Run migrations:
 ```bash
 php artisan migrate
+```
 
 6️⃣ Build assets:
 ```bash
 npm run build
+```
 
 7️⃣ Start the development server:
 ```bash
